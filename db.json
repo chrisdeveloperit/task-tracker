@@ -1,0 +1,58 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "userid": 1,
+      "text": "Doctors Appointment",
+      "day": "May 5th at 2:30pm",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "userid": 4,
+      "text": "Meeting at School",
+      "day": "May 6th at 1:30pm",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "userid": 2,
+      "text": "Food Shopping",
+      "day": "May 7th at 12:30pm",
+      "reminder": false
+    },
+    {
+      "id": 4,
+      "userid": 3,
+      "text": "Field Service",
+      "day": "May 10th at 9:45am",
+      "reminder": true
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Chris Developer",
+      "company": "UCSD Health",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "John Programmer",
+      "company": "Emagine Web",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "Sarah Developer",
+      "company": "Analog Devices",
+      "active": false
+    },
+    {
+      "id": 4,
+      "name": "Jane Analyst",
+      "company": "Stellar Care",
+      "active": true
+    }
+  ]
+}
