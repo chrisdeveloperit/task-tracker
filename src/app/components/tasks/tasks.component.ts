@@ -12,7 +12,8 @@ import { Task } from '../../types/Task';
 export class TasksComponent {
   constructor(private taskService: TaskService) {}
   tasks: Task[] = [];
+
   ngOnInit(): void {
-    this.tasks = this.taskService.getTasks();
+    this.taskService.getTasks().subscribe((tasks) => (this.tasks = tasks));
   }
 }
