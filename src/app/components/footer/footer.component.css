@@ -1,0 +1,9 @@
+footer {
+  background-color: rgba(0, 255, 255, 0.20);
+  margin-top: 2em;
+  text-align: center;
+}
+
+footer * {
+  font-size: 80%;
+}
