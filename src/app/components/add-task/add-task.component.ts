@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
+import { Task } from '../../types/Task';
 
 @Component({
   selector: 'app-add-task',
@@ -9,6 +10,7 @@ export class AddTaskComponent {
   text: string = '';
   day: string = '';
   reminder: boolean = false;
+  @Output() onSubmitAction: EventEmitter<Task> = new EventEmitter();
 
   onSubmit() {
     if (!this.text) {
@@ -21,6 +23,7 @@ export class AddTaskComponent {
       reminder: this.reminder,
     };
     // @todo - emit event
+    this.onSubmitAction.emit(newTask);
 
     this.text = '';
     this.day = '';
