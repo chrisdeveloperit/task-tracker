@@ -5,21 +5,21 @@
       "userid": 1,
       "text": "Doctors Appointment",
       "day": "May 5th at 2:30pm",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": 2,
       "userid": 4,
       "text": "Meeting at School",
       "day": "May 6th at 1:30pm",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": 3,
-      "userid": 2,
-      "text": "Food Shopping",
-      "day": "May 7th at 12:30pm",
-      "reminder": false
+      "userid": 3,
+      "text": "Field Service",
+      "day": "May 10th at 4:00pm",
+      "reminder": true
     },
     {
       "id": 4,
